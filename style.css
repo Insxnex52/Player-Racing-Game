@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background: #222;
+    color: white;
+}
+
+.track {
+    width: 90%;
+    height: 60px;
+    background: #444;
+    margin: 20px auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.car-merah {
+    width: 55px;
+    height: auto;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+.car-biru {
+    width: 55px;
+    height: auto;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+#status {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+#resetBtn {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 25px;
+    cursor: pointer;
+}
